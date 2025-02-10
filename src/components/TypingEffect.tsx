@@ -23,7 +23,7 @@ const TypingEffect = () => {
     return (
         <div>
             <h1 className="text-4xl font-bold text-white mb-4">
-                Hello, <br /> I'm <span className="text-blue-600" ref={typedElement}></span>
+                Hello, <br /> I&apos;m <span className="text-blue-600" ref={typedElement}></span>
                 <span className="ml-1 animate-blink"></span>
             </h1>
             {/* <p className="text-xl text-white/90 max-w-2xl mx-auto">

@@ -6,31 +6,31 @@ const SkillCard = ({ skill, level, icon, delay }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
+    const currentCard = cardRef.current; // Store the ref in a variable
+  
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // Trigger animation when the card comes into view
           setIsVisible(true);
         }
       },
       {
-        // Trigger when at least 10% of the card is visible
-        threshold: 0.1
+        threshold: 0.1,
       }
     );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+  
+    if (currentCard) {
+      observer.observe(currentCard);
     }
-
-    // Cleanup the observer
+  
+    // Cleanup the observer using the stored ref
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
+      if (currentCard) {
+        observer.unobserve(currentCard);
       }
     };
   }, []);
-
+  
   return (
     <div 
       ref={cardRef}

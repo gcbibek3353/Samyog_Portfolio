@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
 import { Github } from 'lucide-react';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -39,9 +40,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
+                width={48}
+                height={48}
                 className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/60 flex items-center justify-between px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

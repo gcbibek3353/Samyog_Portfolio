@@ -7,6 +7,8 @@ const SkillCard = ({ icon, title }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
+    const currentCard = cardRef.current; // Store the ref's current value
+  
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -14,21 +16,22 @@ const SkillCard = ({ icon, title }) => {
         }
       },
       {
-        threshold: 0.1 // Trigger when 10% of the card is visible
+        threshold: 0.1, // Trigger when 10% of the card is visible
       }
     );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+  
+    if (currentCard) {
+      observer.observe(currentCard);
     }
-
-    // Cleanup the observer
+  
+    // Cleanup the observer using the stored reference
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
+      if (currentCard) {
+        observer.unobserve(currentCard);
       }
     };
   }, []);
+  
 
   return (
     <div 

@@ -11,7 +11,7 @@ const ContactPage = () => {
         message: ''
     });
 
-    const handleChange = (e: any) => {
+    const handleChange = (e:React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setFormData(prev => ({
             ...prev,
@@ -19,12 +19,12 @@ const ContactPage = () => {
         }));
     };
 
-    const handleSubmit = async (e: any) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         try {
             // Replace these with your actual EmailJS details
-            const result = await emailjs.send(
+            await emailjs.send(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
                 {
@@ -74,7 +74,7 @@ const ContactPage = () => {
                     <div className="bg-[#121622] p-6 md:p-10 flex flex-col justify-center">
                         <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 md:mb-6">Contact Me</h2>
                         <p className="text-white/70 mb-4 md:mb-6 text-sm md:text-base">
-                            Feel free to reach out. I'm always open to discussing new projects,
+                            Feel free to reach out. I&apos;m always open to discussing new projects,
                             creative ideas, or opportunities to collaborate.
                         </p>
                         <div className="space-y-4">
