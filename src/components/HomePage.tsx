@@ -123,7 +123,7 @@ const App = () => {
         <div className="text-center">
           <div className="mb-8">
             <Image
-              src='/assets/image.png'
+              src='/assets/image.jpg'
               alt="Your image description"
               height={200}
               width={200}
