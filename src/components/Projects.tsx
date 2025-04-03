@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: 'Ecommerce Website',
-    image: '/assets/projects/Ecommerce.png',  // Replace with actual image paths
-    githubLink: 'https://github.com/yourusername/ecommerce-project',
+    title: 'Golang Restaurant Backend',
+    image: 'assets/projects/restaurant-backend.png',  // Replace with actual image paths
+    githubLink: 'https://github.com/SamyogGhimire/Restaurant-Backend.git',
   },
   {
     title: 'Instagram Clone',
