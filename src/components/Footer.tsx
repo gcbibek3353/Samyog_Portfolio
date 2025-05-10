@@ -20,7 +20,7 @@ const Footer = () => {
               <Github size={24} />
             </Link>
             <Link
-              href="https://twitter.com/yourusername"
+              href="https://x.com/samyog__ghimire"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/70 hover:text-blue-500 transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Twitter size={24} />
             </Link>
             <Link
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/samyog-ghimire-345122324/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/70 hover:text-blue-500 transition-colors"
