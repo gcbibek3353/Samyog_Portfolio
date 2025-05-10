@@ -77,6 +77,10 @@ const SkillsSection = () => {
     { title: "Python", icon: '/assets/logos/python.svg' },
     { title: "Docker", icon: '/assets/logos/docker.svg' },
     { title: "Postman", icon: '/assets/logos/postman.svg' },
+    { title: "Ansible", icon: '/assets/logos/ansible.png' },
+    { title: "Jenkins", icon: '/assets/logos/jenkins.svg' },
+    { title: "Kubernetes", icon: '/assets/logos/kubernetes.png' },
+    { title: "Nginx", icon: '/assets/logos/nginx.png' },
   ];
 
   return (
