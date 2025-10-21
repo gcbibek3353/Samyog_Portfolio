@@ -73,7 +73,6 @@ const SkillsSection = () => {
     { title: "MYSQL", icon: '/assets/logos/mysql.svg' },
     { title: "Github", icon: '/assets/logos/github.svg' },
     { title: "Bash", icon: '/assets/logos/terminal.svg' },
-    { title: "C", icon: '/assets/logos/c.svg' },
     { title: "Python", icon: '/assets/logos/python.svg' },
     { title: "Docker", icon: '/assets/logos/docker.svg' },
     { title: "Postman", icon: '/assets/logos/postman.svg' },
@@ -81,6 +80,10 @@ const SkillsSection = () => {
     { title: "Jenkins", icon: '/assets/logos/jenkins.svg' },
     { title: "Kubernetes", icon: '/assets/logos/kubernetes.png' },
     { title: "Nginx", icon: '/assets/logos/nginx.png' },
+    { title: "AWS", icon: '/assets/logos/aws.png' },
+    { title: "Prometheus", icon: '/assets/logos/prometheus.png' },
+    { title: "Grafana", icon: '/assets/logos/grafana.jpeg ' },
+    { title: "Gitlab", icon: '/assets/logos/gitlab.png ' },
   ];
 
   return (
