@@ -10,9 +10,9 @@ const projects = [
     githubLink: 'https://github.com/SamyogGhimire/Restaurant-Backend.git',
   },
   {
-    title: 'AWS VPC',
-    image: '/assets/projects/VPC.png',
-    githubLink: 'https://github.com/SamyogGhimire/AWS-VPC-Project',
+    title: 'Instagram Clone',
+    image: '/assets/projects/instagram.png',
+    githubLink: 'https://github.com/yourusername/instagram-clone',
   },
   {
     title: 'Logistic Management',
