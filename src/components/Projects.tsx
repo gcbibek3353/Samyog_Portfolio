@@ -5,29 +5,29 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: 'Golang Restaurant Backend',
+    title: 'AWS CICD Project',
     image: 'assets/projects/restaurant-backend.png',  // Replace with actual image paths
-    githubLink: 'https://github.com/SamyogGhimire/Restaurant-Backend.git',
+    githubLink: 'https://github.com/SamyogGhimire/AWS-CICD-Project',
   },
   {
-    title: 'Instagram Clone',
-    image: '/assets/projects/instagram.png',
-    githubLink: 'https://github.com/yourusername/instagram-clone',
+    title: 'AWS VPC',
+    image: '/assets/projects/VPC.png',
+    githubLink: 'https://github.com/SamyogGhimire/AWS-VPC-Project',
   },
   {
-    title: 'Logistic Management',
+    title: 'Jenkins Docker Project',
     image: '/assets/projects/Logistics_management.png',
-    githubLink: 'https://github.com/yourusername/logistic-management',
+    githubLink: 'https://github.com/SamyogGhimire/Jenkins-Docker-Project',
   },
   {
-    title: 'Chess',
+    title: 'Terraform AWS Project',
     image: '/assets/projects/chess.png',
-    githubLink: 'https://github.com/yourusername/chess-project',
+    githubLink: 'https://github.com/SamyogGhimire/Terraform-AWS-Project',
   },
   {
-    title: 'Whiteboard',
+    title: 'Ansible Realtime Project',
     image: '/assets/projects/whiteboard.png',
-    githubLink: 'https://github.com/yourusername/whiteboard-project',
+    githubLink: 'https://github.com/SamyogGhimire/Ansible-Realtime-Project',
   },
 ];
 
