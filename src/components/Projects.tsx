@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: 'AWS VPC',
-    image: '/assets/projects/VPC.png',
+    image: '/assets/projects/VPC1.png',
     githubLink: 'https://github.com/SamyogGhimire/AWS-VPC-Project',
   },
   {
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: 'Terraform AWS Project',
-    image: '/assets/projects/chess.png',
+    image: '/assets/projects/aws.png',
     githubLink: 'https://github.com/SamyogGhimire/Terraform-AWS-Project',
   },
   {
