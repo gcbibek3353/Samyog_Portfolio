@@ -7,7 +7,7 @@ const TypingEffect = () => {
 
     useEffect(() => {
         const options = {
-            strings: ['DevOps Engineer.', 'Samyog Ghimire.','Learner.'],
+            strings: ['DevOps and Cloud Engineer.', 'Samyog Ghimire.','Learner.'],
             typeSpeed: 100,
             backSpeed: 50,
             loop: true,
